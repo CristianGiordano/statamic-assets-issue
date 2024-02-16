@@ -2,3 +2,5 @@ name: 'Super Admin'
 super: true
 id: 4828a4fb-bab2-4600-bdbf-ce121f806ff1
 password_hash: $2y$10$FmuGeyk5TJ2RKbBOZTkvF.jp6JLd6HRm5OyVqlab8B8gpJs09rCfm
+preferences:
+  nav: {  }

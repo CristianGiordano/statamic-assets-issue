@@ -1,1 +1,33 @@
-{{ content }}
+<div class="bg-white border p-4 mb-4">
+    <h1>Standard Variable Usage</h1>
+    <img src="{{ featured_image }}" alt="">
+</div>
+
+
+<div class="bg-white border p-4 mb-4">
+
+<h1>Asset Tag: `src`</h1>
+<pre>
+@{{ asset :src="featured_image" }}
+    &lt;pre&gt;@{{ url }}&lt;/pre&gt;
+@{{ /asset }}    
+</pre>
+
+{{ asset :src="featured_image" }}
+    <pre>{{ url }}</pre>
+{{ /asset }}
+
+</div>
+
+<div class="bg-white border p-4 mb-4">
+<h1>Asset Tag: `url`</h1>
+<pre>
+@{{ asset :url="featured_image" }}
+    &lt;pre&gt;@{{ url }}&lt;/pre&gt;
+@{{ /asset }}    
+</pre>
+
+{{ asset :url="featured_image" }}
+    <pre>{{ url }}</pre>
+{{ /asset }}
+</div>
